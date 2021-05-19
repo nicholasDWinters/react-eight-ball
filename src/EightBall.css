@@ -1,11 +1,10 @@
 .EightBall {
     width: 400px;
     height: 400px;
-    display: flex;
+    display: block;
     border-radius: 50%;
-    margin-top: 10%;
     justify-content: center;
-    
+    margin: 10% auto auto auto;
 }
 
 #EightBall-black {
@@ -24,6 +23,15 @@
 .EightBall-text {
     color: white;
     font-size: 50px;
-    margin-top: 20%;
-    padding: 50px;
+    padding: 100px 50px 50px 50px;
+}
+
+.EightBall-reset {
+   margin-top: 20px;
+   padding: 10px;
+   margin-right: 20px;
+}
+
+.EightBall-colorCounts {
+    display: inline-block;
 }
